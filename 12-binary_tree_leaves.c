@@ -3,7 +3,7 @@
 /**
 * binary_tree_leaves - function that counts the leavs in abinary tree
 * @tree: pointer to root node of the tree to measure the height
-*
+* Return: number of leaves
 */
 size_t binary_tree_leaves(const binary_tree_t *tree)
 {
@@ -20,4 +20,3 @@ size_t binary_tree_leaves(const binary_tree_t *tree)
 		return (binary_tree_leaves(tree->left) + binary_tree_leaves(tree->right));
 	}
 }
-	
