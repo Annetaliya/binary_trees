@@ -7,7 +7,7 @@
  *
  * Return: max between the two paths
  */
-int max(int left, int right)
+size_t max(size_t left, size_t right)
 {
 	if (left < right)
 		return (right);
@@ -20,7 +20,7 @@ int max(int left, int right)
  *
  * Return: height of tree else 0
  */
-int binary_tree_height(const binary_tree_t *tree)
+size_t binary_tree_height(const binary_tree_t *tree)
 {
 	int left, right;
 
@@ -38,7 +38,7 @@ int binary_tree_height(const binary_tree_t *tree)
  * @tree: The binary tree
  * Return: The bf
  */
-int binary_tree_balance(const binary_tree_t *tree)
+size_t binary_tree_balance(const binary_tree_t *tree)
 {
 	if (tree == NULL)
 		return (0);
