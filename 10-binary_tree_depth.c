@@ -1,6 +1,6 @@
 #include "binary_trees.h"
 
-/**
+:wq/**
 * binary_tree_depth - function that mesures the depth of abinary tree
 * @tree: pointer to root node of the tree to measure the height
 * Return:depth
